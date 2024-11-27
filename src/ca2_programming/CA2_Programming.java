@@ -21,7 +21,7 @@ public class CA2_Programming {
                 System.out.printf("First repeated element: %s\n", Array.FirstRepeatElement(aArr, iSize));
             }
             else
-                System.out.printf("Invalid matrix size.\n");
+                System.out.printf("Invalid array size.\n");
         }
         catch (Exception e) {    
             System.out.printf("ERROR: %s\n", e.toString());
